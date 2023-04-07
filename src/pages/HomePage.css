@@ -1,0 +1,27 @@
+.start {
+    text-align: center;
+}
+
+.start h2 {
+    font-size: 60px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #FFFF00;
+    -webkit-text-stroke: 4px #21059e;
+    margin-top: -70px;
+}
+
+.start h2:last-child {
+    margin-top: -20px;
+    font-size: 48px;
+}
+
+.start img {
+    margin-top: 5px;
+    width: 300px;
+}
+
+.start img:hover {
+    scale: 1.2;
+    transition: ease 0.4s all;
+    cursor: pointer;
+}

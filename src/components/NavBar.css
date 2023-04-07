@@ -1,0 +1,27 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    margin-bottom: -60px;
+    padding-right: 40px;
+    margin-top: 25px;
+}
+
+.navbar a {
+    font-size: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #FFFF00;
+    font-weight: 400;
+    font-family: 'Pokemon Solid', sans-serif;
+    -webkit-text-stroke: 1.5px #21059e;
+}
+
+.navbar a:hover {
+    color: #1aabff;
+}
+
+.navbar .active {
+    color: #1aabff;
+}

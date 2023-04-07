@@ -1,0 +1,91 @@
+.detail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 484px;
+    background-image: linear-gradient(to top, #bec0c2 0%, #8096a2 100%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 0 30px;
+}
+
+.image-right img {
+    width: 420px;
+    margin: 30px 0;
+}
+
+header h2 {
+    font-size: 55px;
+    color: white;
+    font-family: 'Pokemon Solid', sans-serif;
+    -webkit-text-stroke: 1.5px rgb(78, 78, 78);
+}
+
+header h2 span {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.name-type {
+    display: flex;
+    color: rgb(78, 78, 78);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.name-type h2 {
+    font-family: 'Pokemon Solid', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    -webkit-text-stroke: 1.5px rgb(78, 78, 78);
+}
+
+.type-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.type-container h3 {
+    margin-right: 5px;
+    font-family: 'Pokemon Solid', sans-serif;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 20px;
+}
+
+.stat-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 12px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    border-radius: 300px 10px 30px 10px;
+    transform: skewX(-30deg);
+}
+
+.stat-name, .stat {
+    font-size: 20px;
+    font-weight: 500;
+    transform: skewX(30deg);
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #FFFF00;
+    -webkit-text-stroke: 1.5px #21059e;
+}
+
+.stat-bottom:nth-child(odd) {
+    background: rgb(182,182,184);
+    background: linear-gradient(90deg, rgba(182,182,184,1) 0%, rgba(207,207,207,1) 26%, rgba(149,89,89,1) 100%);
+    border-radius: 300px 1000px 300px 1000px; 
+}
+
+.stat-bottom:nth-child(even) {
+    background: rgb(182,182,184);
+    background: linear-gradient(90deg, rgba(182,182,184,1) 0%, rgba(207,207,207,1) 26%, rgba(89,95,149,1) 100%);
+    border-radius: 100px 200px 100px 200px; 
+}
